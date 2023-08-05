@@ -1,5 +1,3 @@
-
-
 def menu():
   balance = 0
   limit = 500
@@ -62,7 +60,7 @@ Por favor, selecione uma das opções:
 
 def deposit(deposit_value, balance, extract, /):
   if deposit_value <= 0:
-    print('\nXXXXX Operação falou! O valor informado é inválido XXXXX')
+    print('\nXXXXXx Operação falou! O valor informado é inválido XXXXXx')
   else:
     print(f'\n***** Operação realizada com sucesso. *****\n')
     balance += deposit_value
